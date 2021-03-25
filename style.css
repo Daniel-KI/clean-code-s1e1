@@ -45,7 +45,7 @@ body {
 .task-group__name {
   list-style: none;
 }
-#new-task__input,
+.new-task__input,
 .task__checkbox,
 .task__input,
 .btn {
