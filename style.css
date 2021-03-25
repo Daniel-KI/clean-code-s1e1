@@ -65,7 +65,7 @@ body {
 }
 
 /* Heading */
-#new-task__label,
+.new-task__label,
 .task-group__name {
   color: #333;
   font-weight: 700;
@@ -75,7 +75,7 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-#new-task__input,
+.new-task__input,
 .task__input {
   margin: 0;
   font-size: 18px;
@@ -89,20 +89,20 @@ body {
   color: #888;
   flex-grow: 1
 }
-#new-task__input:focus,
+.new-task__input:focus,
 .task__input:focus {
   color: #333;
 }
 
 /* New Task */
-#new-task__label {
+.new-task__label {
   display: block;
   margin: 0 0 20px;
 }
-#new-task__input {
+.new-task__input {
   width: 318px;
 }
-#new-task__btn:hover {
+.new-task__btn:hover {
   color: #0fc57c;
 }
 
